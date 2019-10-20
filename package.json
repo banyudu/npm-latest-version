@@ -1,0 +1,36 @@
+{
+  "name": "npm-latest-version",
+  "version": "0.0.1",
+  "description": "Find latest versions of npm packages",
+  "main": "index.js",
+  "scripts": {
+    "prepublishOnly": "npm run build",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/banyudu/npm-latest-version.git"
+  },
+  "files": [
+    "./package.json",
+    "./README.md",
+    "./LICENSE",
+    "./index.js"
+  ],
+  "keywords": [
+    "npm",
+    "latest",
+    "version"
+  ],
+  "author": "Yudu Ban <banyudu@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/banyudu/npm-latest-version/issues"
+  },
+  "homepage": "https://github.com/banyudu/npm-latest-version#readme",
+  "devDependencies": {
+    "tsc": "^1.20150623.0",
+    "typescript": "^3.6.4"
+  }
+}
