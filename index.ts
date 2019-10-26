@@ -3,7 +3,7 @@ import npm from 'npm'
 
 export interface Options {
   registry?: string;
-  modules: string[];
+  module: string;
   since?: Date;
 }
 
@@ -21,7 +21,7 @@ export default async function npmLatestVersion (options: Options): Promise<Resul
       npmOptions.registry = options.registry
     }
     npm.load(npmOptions, () => {
-      npm.commands.show(options.modules, true, (err, res) => {
+      npm.commands.show([options.module], true, (err, res) => {
         if (err) {
           reject(err)
         } else {
