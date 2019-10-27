@@ -3,6 +3,7 @@
   "version": "0.0.2",
   "description": "Find latest versions of npm packages",
   "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "scripts": {
     "prepublishOnly": "npm run build",
     "build": "tsc",
