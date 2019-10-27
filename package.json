@@ -1,6 +1,6 @@
 {
   "name": "npm-latest-version",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Find latest versions of npm packages",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
