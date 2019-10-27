@@ -14,7 +14,7 @@ export interface Result {
   }
 }
 
-export default async function npmLatestVersion (options: Options): Promise<Result> {
+export default async function npmLatestVersions (options: Options): Promise<Result> {
   return new Promise((resolve, reject) => {
     let npmOptions: any = {}
     if (options.registry) {
