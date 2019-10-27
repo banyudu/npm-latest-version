@@ -1,5 +1,5 @@
 {
-  "name": "npm-latest-version",
+  "name": "npm-latest-versions",
   "version": "0.0.3",
   "description": "Find latest versions of npm packages",
   "main": "lib/index.js",
