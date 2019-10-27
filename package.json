@@ -14,10 +14,10 @@
     "url": "git+https://github.com/banyudu/npm-latest-version.git"
   },
   "files": [
-    "./package.json",
-    "./README.md",
-    "./LICENSE",
-    "./lib"
+    "package.json",
+    "README.md",
+    "LICENSE",
+    "lib"
   ],
   "keywords": [
     "npm",
