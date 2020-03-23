@@ -31,7 +31,7 @@
   },
   "homepage": "https://github.com/banyudu/npm-latest-version#readme",
   "devDependencies": {
-    "@types/node": "^12.11.1",
+    "@types/node": "^13.9.3",
     "@types/npm": "^2.0.31",
     "@types/power-assert": "^1.5.0",
     "mocha": "^6.2.2",
